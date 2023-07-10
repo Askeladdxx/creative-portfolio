@@ -1,5 +1,11 @@
-body {
-  background-color: #3d3d3d;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  min-height: 100vh;
+  .sec-1 {
+  }
 }
 .creative-portfolio {
   .navbar-logo {
@@ -12,17 +18,29 @@ body {
   .btn-navbar,
   .btn-category {
     font-size: medium;
-    border-radius: 10px;
-    background-color: pink !important;
   }
   .intro-header {
-    color: pink;
-    font-size: 150px;
+    font-size: 90px;
+  }
+  .intro-image {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
   }
   .carousel-container {
     .carousel-graphic {
-      width: 600px;
-      height: 750px;
+      border-radius: 15px;
+      width: 500px;
+      height: 500px;
     }
+  }
+  .text-container {
+    .content-text {
+      font-size: large;
+    }
+  }
+  .my-card {
+    width: 300px;
+    height: 400px;
   }
 }
